@@ -13,6 +13,7 @@ Shirtz::Application.routes.draw do
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
+      resources :shirts
 
   # Example resource route with options:
   #   resources :products do
