@@ -37,7 +37,8 @@ class ShirtsController < ApplicationController
   private
 
   def load_shirt
-    @shirt = Shirt.find(params[:id])
+    #@shirt = Shirt.find(params[:id])
+    @shirt = Shirt.find(shirt_params)
   end
 
   def shirt_params
